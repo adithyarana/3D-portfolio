@@ -42,6 +42,10 @@ import {
       id: "contact",
       title: "Contact",
     },
+    {
+      id: "resume",
+      title: "Resume",
+    }
   ];
   
   const services = [
@@ -195,6 +199,7 @@ import {
       ],
       image: blog,
       source_code_link: "https://github.com/adithyarana/BlogVerse",
+      liveLink:"https://blog-verse-eta.vercel.app/"
     },
     {
       name: "HireLine",
@@ -228,9 +233,16 @@ import {
       ],
       image: hireline,
       source_code_link: "https://github.com/adithyarana/HireLine-JobPortol-",
+      liveLink:"https://hireline.vercel.app/"
     },
   
   ];
+
+// const resume =[
+//   {
+//     link: "file:///C:/Users/adith/OneDrive/Documents/Adithya__Rana.pdf"
+//   }
+// ]
 
 
   

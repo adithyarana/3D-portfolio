@@ -6,9 +6,11 @@ import { fadeIn, textVariant } from '../utils/motion'
 import {motion} from 'framer-motion'
 import { styles } from '../styles'
 import { Tilt } from 'react-tilt'
+import { faEarthAmerica } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
-const Projectcard =({index , name ,description,tags,image, source_code_link})=>{
+const Projectcard =({index , name ,description,tags,image, source_code_link, liveLink})=>{
 
   return (
     <motion.div variants={fadeIn("up","spring", index*0.5, 0.75)} className='flex flex-col'>
@@ -31,7 +33,11 @@ const Projectcard =({index , name ,description,tags,image, source_code_link})=>{
      alt={name}
      />
 
-     <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+
+  {/* github image insdie the card */}
+     
+
+     <div className='absolute inset-0 flex justify-end m-3 card-img_hover gap-2'>
       <div
       onClick={()=> window.open(source_code_link, "_blank")}
       className='black-gradient w-10 h-10 rounded-full flex justify-center items-center
@@ -40,6 +46,19 @@ const Projectcard =({index , name ,description,tags,image, source_code_link})=>{
         <img src={github} alt="github" className='w-6 h-6 object-contain'  />
          
       </div>
+
+ {/* 2 image */}
+      <div
+      onClick={()=> window.open(liveLink,"_blank")}
+      className='black-gradient w-10 h-10 rounded-full flex justify-center items-center
+      cursor-pointer'
+      >
+        <FontAwesomeIcon icon={faEarthAmerica} size='2x' />
+         
+      </div>
+
+
+
      </div>
    </div>
 
