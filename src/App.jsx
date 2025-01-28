@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom"
 import {About , Contact , Experience  , Hero , Navbar , Tech , Works  }
  from "./components"
-import Resume from "./components/resume"
+import Resume from "./components/Resume"
 
 const  App = ()=> {
 
