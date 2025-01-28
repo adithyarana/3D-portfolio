@@ -12,7 +12,7 @@ const Hero = () => {
       >
         <div className="flex flex-col justify-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
-          <div className="w-1 ml-2 sm:h-80 h-40 violet-gradient" />
+          <div className="w-1 h-40 ml-2 sm:h-80 violet-gradient" />
         </div>
 
         <div>
@@ -21,7 +21,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I'm a Full <span className="text-[#915eff]">stack developer</span>{" "}
-            <br className="sm:block hidden" />
+            <br className="hidden sm:block" />
             and diving into <span className="text-[#915eff]">AI & ML</span>.
           </p>
         </div>
@@ -31,7 +31,7 @@ const Hero = () => {
       <ComputersCanvas />
 
       {/* Scroll Button */}
-      <div className="absolute bottom-28 md:bottom-2 left-1/2 transform -translate-x-1/2 w-full flex justify-center items-center">
+      <div className="absolute flex items-center justify-center w-full transform -translate-x-1/2 bottom-28 md:bottom-2 left-1/2">
         <a href="#about">
           <div
             className="w-[35px] h-[64px] rounded-3xl border-4 border-[#915eff] flex justify-center items-start p-2"
