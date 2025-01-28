@@ -1,5 +1,4 @@
-import React from 'react'
-
+import React from 'react' 
 import {motion} from 'framer-motion'
 import Sectionwrapper from '../hoc/Sectionwrapper'
 import { styles } from '../styles'

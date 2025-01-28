@@ -238,11 +238,7 @@ import {
   
   ];
 
-// const resume =[
-//   {
-//     link: "file:///C:/Users/adith/OneDrive/Documents/Adithya__Rana.pdf"
-//   }
-// ]
+
 
 
   
