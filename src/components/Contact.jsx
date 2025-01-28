@@ -22,7 +22,7 @@ const Contact = () => {
          Reach out <span className='text-[#915eff]'>to me at 🤝 </span>
          </h2>
 
-         <div className="mt-4 flex space-x-4 cursor-pointer gap-1 m-20 ">
+         <div className="flex gap-1 m-20 mt-4 space-x-4 cursor-pointer ">
        
        <a
          href="https://www.instagram.com/adithya.rana.11/"
@@ -46,7 +46,7 @@ const Contact = () => {
          <FontAwesomeIcon icon={faGithub} color="#ffffff" size="2x" />
        </a>
        <a
-         href="#contact"
+         href=""
          target="_blank"
          rel="noopener noreferrer"
        >

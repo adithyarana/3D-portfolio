@@ -20,13 +20,14 @@ const  App = ()=> {
        <Experience/>
        <Tech/>
        <Works/>
+       <Contact/>
+       <Resume/>
         
     
-       <div className="relative z-0 ">
-         <Contact/>
-         <Resume/>
-     
+       {/* <div className="relative z-0 ">
+      
        </div>
+     */}
 
        
      </div>
