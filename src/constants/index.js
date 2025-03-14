@@ -26,6 +26,11 @@ import {
     blog,
     hireline,
     python,
+    nextjs,
+    Cpp,
+    Appwrite,
+    supabase,
+    postman
 
   } from "../assets";
   
@@ -67,7 +72,7 @@ import {
     },
   ];
   
-    const technologies = [
+    const Frontend = [
     {
       name: "HTML 5",
       icon: html,
@@ -89,6 +94,10 @@ import {
       icon: reactjs,
     },
     {
+      name: "Next JS",
+      icon: nextjs,
+    },
+    {
       name: "Redux Toolkit",
       icon: redux,
     },
@@ -97,17 +106,52 @@ import {
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
     },
+    {
+      name:'Python',
+      icon: python
+    },
+    {
+      name: "Cpp",
+      icon: Cpp
+
+    }
+
+   
+  ];
+
+ const backendd = [
+    
+      {
+        name: "Node JS",
+        icon: nodejs,
+      },
+      {
+        name: "MongoDB",
+        icon: mongodb,
+      },
+      {
+        name:"Express js",
+        icon: expressjs
+      },
+      {
+        name:'Mysql',
+        icon: mysql
+      },
+      {
+        name: "Appwrite",
+        icon: Appwrite,
+      },
+      {
+        name: "Supabase",
+        icon: supabase,
+      }
+    
+  ]  
+
+  const tools=[
     {
       name: "git",
       icon: git,
@@ -125,20 +169,13 @@ import {
       icon: excel,
     },
     {
-      name:"Express js",
-      icon: expressjs
-    },
-    {
-      name:'Mysql',
-      icon: mysql
-    },
-    {
-      name:'Python',
-      icon: python
+      name: "Postman",
+      icon: postman,
     }
 
-  ];
   
+
+  ]
   const experiences = [
     {
       title: "Web Developer",
@@ -242,4 +279,4 @@ import {
 
 
   
-  export { services, technologies, experiences, projects };
+  export { services, experiences, projects , Frontend , backendd , tools  };
