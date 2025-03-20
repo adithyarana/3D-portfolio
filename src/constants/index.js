@@ -59,17 +59,14 @@ import {
       icon: web,
     },
     {
-      title: "React Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
       title: "Backend Developer",
       icon: backend,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+   
   ];
   
     const Frontend = [
