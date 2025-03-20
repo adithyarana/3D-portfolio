@@ -30,7 +30,8 @@ import {
     Cpp,
     Appwrite,
     supabase,
-    postman
+    postman,
+    NotaAi
 
   } from "../assets";
   
@@ -267,7 +268,49 @@ import {
       ],
       image: hireline,
       source_code_link: "https://github.com/adithyarana/HireLine-JobPortol-",
-      liveLink:"https://hireline.vercel.app/"
+      liveLink:"https://hireline.vercel.ap p/"
+    },
+    {
+      name: "Nota AI",
+      description:
+      "Your AI-Powered Note-Taking Assistant Nota AI is an intelligent note-taking application that leverages AI to help you create, edit, and enhance your notes effortlessly. With features like AI-powered summaries, text formatting, and easy content organization, Nota AI transforms your raw ideas into well-structured and visually appealing notes.",
+      tags: [
+        {
+          name: "NextJs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "clerk",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "shadcnUI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Node js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "convex DB",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Gemini API",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "LangChain",
+          color: "blue-text-gradient",
+        },
+      ],
+      image:  NotaAi,
+      source_code_link: "https://github.com/adithyarana/Nota-AI",
+      liveLink:"https://nota-ai.vercel.app/"
     },
   
   ];

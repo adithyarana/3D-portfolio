@@ -32,11 +32,12 @@ import expressjs from "./tech/expressjs.png";
 import python from "./tech/python.png";
 import blog from "./blog.png"
 import hireline from "./hireline.png";
-import nextjs from "./tech/nextjs.png";
+import nextjs from "./tech/nextjs.jpg";
 import Cpp from "./tech/Cpp.png";
 import Appwrite from "./tech/Appwrite.png";
 import supabase from "./tech/supabase.png";
 import postman from "./tech/postman.png";
+import NotaAi from "./NotaAi.png";
 
 export {
   logo,
@@ -75,6 +76,7 @@ export {
   Cpp,
   Appwrite,
   supabase,
-  postman
+  postman,
+  NotaAi
 
 };
