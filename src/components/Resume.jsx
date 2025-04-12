@@ -24,7 +24,7 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons'
 
         <button className='bg-[#915eff] text-white px-4 py-2 rounded-md mt-4  '
         >
-            <a href="https://drive.google.com/file/d/1qGDGcV7IEvHuKyvRsC3hWXACnAnaSMrR/view?usp=sharing" target='_blank'  rel="noopener noreferrer" className='m-2 text-lg'>  <FontAwesomeIcon className='mr-2'  icon={faDownload} color="#ffffff" size="1x" />Resume</a>
+            <a href="https://drive.google.com/file/d/1kliJvUOn3AnXBbJtnBJPLq_E22tRnHM5/view?usp=sharing" target='_blank'  rel="noopener noreferrer" className='m-2 text-lg'>  <FontAwesomeIcon className='mr-2'  icon={faDownload} color="#ffffff" size="1x" />Resume</a>
          
         </button>
     
