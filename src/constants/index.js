@@ -268,7 +268,7 @@ import {
       ],
       image: hireline,
       source_code_link: "https://github.com/adithyarana/HireLine-JobPortol-",
-      liveLink:"https://hireline.vercel.ap p/"
+      liveLink:"https://adithyarana.vercel.app/"
     },
     {
       name: "Nota AI",
