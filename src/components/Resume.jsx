@@ -14,7 +14,7 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons'
     <>
        <motion.div variants={textVariant()} className='mb-56'>
    <p className= {styles.sectionSubText } >
-      <span className='text-2xl '>check out </span>
+      <span className='text-2xl'>check out </span>
       </p>
       <h2 className={styles.sectionHeadText}>
         My <span className='text-[#915eff]'>resume </span>
@@ -24,7 +24,7 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons'
 
         <button className='bg-[#915eff] text-white px-4 py-2 rounded-md mt-4  '
         >
-            <a href="https://drive.google.com/file/d/1NFyGcT_6DI1mGV72lva0XmGLTVCDN2WH/view?usp=sharing" target='_blank'  rel="noopener noreferrer" className='m-2 text-lg'>  <FontAwesomeIcon className='mr-2'  icon={faDownload} color="#ffffff" size="1x" />Resume</a>
+            <a href="https://drive.google.com/file/d/1ce20Ggnt4AkbLmDcZRFd2VVFHdrZcqhI/view?usp=sharing" target='_blank'  rel="noopener noreferrer" className='m-2 text-lg'>  <FontAwesomeIcon className='mr-2'  icon={faDownload} color="#ffffff" size="1x" />Resume</a>
          
         </button>
     
